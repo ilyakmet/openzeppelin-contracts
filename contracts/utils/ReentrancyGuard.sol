@@ -11,6 +11,10 @@ pragma solidity ^0.5.0;
  * `nonReentrant` may not call one another. This can be worked around by making
  * those functions `private`, and then adding `external` `nonReentrant` entry
  * points to them.
+ *
+ * TIP: If you would like to learn more about reentrancy and alternative ways
+ * to protect against it, check out our blog post
+ * https://blog.openzeppelin.com/reentrancy-after-istanbul/[Reentrancy After Istanbul].
  */
 contract ReentrancyGuard {
     // counter to allow mutex lock with only one SSTORE operation
